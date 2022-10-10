@@ -1,0 +1,144 @@
+.letter {
+    width: 70px;
+    height: 80px;
+    font-size: 100px;
+  
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-grow: 0;
+    color: black;
+  }
+  body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+      "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+      sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    /* background-image: linear-gradient(to bottom right, lightsalmon , lightblue); */
+  }
+  
+  code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+      monospace;
+  } 
+
+  .flex-boxes{
+  display: flex;
+  flex-direction: row;
+  
+    
+    
+
+    
+  }
+  .flex-boxes > div {
+    border-radius: 20%;
+   
+     background-color: whitesmoke;
+    width: 80px;
+    margin: 10px;
+    flex-direction: row;
+    text-align: center;
+    line-height: 75px;
+    font-size: 40px;
+    /* box-shadow: 10px 5px; */
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 5), 0 6px 20px 0 rgba(0, 0, 0, 1.5);
+  }
+  .main-container{
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .Cardheader > div {
+    display: flexbox;
+    display: inline;
+    width: 10px;  
+    text-align: center;
+    font-size: 25px;
+   
+
+    
+   
+  }
+ .console-Body{
+  
+    height: 600px;
+    width: 1262px;
+    background-color: rgb(81, 160, 209);
+    color: #fff;
+    padding: 10px;
+    border: solid 1px black;
+    margin: 0
+  }
+
+  .heading1{
+  margin-right: -50%;
+  }
+  .Cardheader{
+    height: 50px;
+    width: 515px;
+    background-color: white;
+    color: #fff;
+
+    padding: 10px;
+    border: solid 1px black;
+    margin: 0;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 5), 0 6px 20px 0 rgba(0, 0, 0, 1.5);
+
+  }
+ .TextCenter{
+  margin: 10px;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-family: cursive;
+  font-size: 40px
+  
+ }
+ .startbutton:after{
+  
+  content: "\1F600";
+ }
+ .textcenter:after{
+  content: "\1F389";
+  
+
+ }
+ .textcenter{
+  font-size: 40px;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-family: cursive;
+ }
+ .startbutton{
+  width:20%;
+  height: 20%;
+  margin: 10px;
+  background-color: lightgreen; 
+ }
+
+ .TotalScore{
+  font-weight: bolder;
+  font-size: 30px;
+ }
+ .ReamainingTime{
+  font-size: 30px;
+  font-weight: bolder;
+ }
+.ScoreOfQuestion{
+  font-size: 30px;
+  font-weight: bolder;
+}
+mark{
+  background-color:black;
+  color: white;
+}
+.CardFooter{
+  align-items: center;
+  /* margin: 10%;
+  margin-right: 10%; */
+}
+
+.FormControl{
+  
+  width: 50%;
+}
